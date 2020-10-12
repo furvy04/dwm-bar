@@ -6,7 +6,7 @@
 while :
 	do
 		
-		# cpu Used Percent
+		# Cpu Used Percent
 		CPU=$(awk '{u=$2+$4; t=$2+$4+$5;if (NR==1){u1=u; t1=t;} else printf("%d%%", ($2+$4-u1) * 100 / (t-t1) "%");}' <(grep 'cpu ' /proc/stat) <(sleep 0.5; grep 'cpu ' /proc/stat))
 
 		# Used Ram
