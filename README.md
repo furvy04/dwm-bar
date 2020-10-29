@@ -9,16 +9,16 @@ $ cd dwm-bar
 ```
 2. Make the script executable
 ```
-$ chmod +x dwm_bar.sh
+$ chmod +x dwm-bar.sh
 ```
 ## Quick Start
 Simply run the script and dwm should display your bar:
 ```
-$ ./dwm_bar.sh
+$ ./dwm-bar.sh
 ```
 # Statusbar
 If you want dwm-bar to appear when X starts, add it to your .xinitrc file before starting dwm.
 For example,if the script is located in / home / $ USER / dwm-bar /:
 ```
-/home/$USER/dwm-bar/dwm_bar.sh &
+/home/$USER/dwm-bar/dwm-bar.sh &
 ```
